@@ -12,8 +12,14 @@ def last_number_of_n(n):
 
 
 
+def last_2_numbers_of_n(n):
+  return n%100
+
+
+
+
 def finish(n):
-  if (last_number_of_n(n)==11 or last_number_of_n(n)==12 or last_number_of_n(n)==13 or last_number_of_n(n)==14):
+  if (last_2_numbers_of_n(n)==11 or last_2_numbers_of_n(n)==12 or last_2_numbers_of_n(n)==13 or last_2_numbers_of_n(n)==14):
     return " "
   elif (last_number_of_n(n)==1):
     return "а"
