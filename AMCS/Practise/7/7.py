@@ -24,13 +24,13 @@ def df(x,e):
 
 
 
-x = int(input("x0 = "))
+x = float(input("x0 = "))
 print (" ")
 
 
 
 
-e = int(input("e = "))
+e = float(input("e = "))
 print (" ")
 
 
