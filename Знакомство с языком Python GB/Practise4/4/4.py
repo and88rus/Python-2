@@ -5,10 +5,27 @@ if __name__ == '__main__':
 
 
 
-class monom:
- pass
+
+def List(L): 
+   unL=[]
+   for i in range (1, 2):
+    a = int(input("a = "))
+    unL.append (a)
+    print (unL)
+
+
+
 
 L=[]
-s = int(input())
-for i in range (0, int(s)):
-    L[i]=monom()
+
+
+
+
+k = int(input("k = "))
+
+
+print ("")
+
+
+
+List(L)
